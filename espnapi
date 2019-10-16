@@ -1,0 +1,5 @@
+from ff_espn_api import League
+# private league with cookies
+league = League(league_id=1238444, year=2019, espn_s2='AECaUpJ80TEWZO4S4H%2BVW90QiyhhJydkW6S5TxpnhaL%2FF3Aum%2BOFlSkxtJQp%2FMXCMqqb5iS1%2F2M6CzSbID4fePEWFwCKgHlfqJnJsQ4jf4WJ2fqvbGzKnOlQkBXjK71kW8Ys1W6WN7d%2F5WXRzHV%2FBcSDYCjBF7PcT6k1JSsvHAScCbfIjZcsfcMlvmPMwuzQA5i6xGrvULe95UtWrPr2HxolO7IJU%2Fkq3uD6cwEt%2FFxgzmzmShycOUJTXpuk%2BmXJa4%2BL%2Fgx1Bf7ASLcp7ZMXlubU', swid='{EB5242AA-7E1E-4FAD-9242-AA7E1E2FADA1}')
+# private league with username and password
+league = League(league_id=1238444, year=2019, username='akum96', password='Boston1!')
